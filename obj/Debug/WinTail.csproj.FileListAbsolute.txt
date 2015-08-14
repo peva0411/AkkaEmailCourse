@@ -1,0 +1,10 @@
+C:\Users\pevans\Documents\Visual Studio 2013\Projects\Akka\Unit-1\DoThis\bin\Debug\WinTail.exe.config
+C:\Users\pevans\Documents\Visual Studio 2013\Projects\Akka\Unit-1\DoThis\bin\Debug\WinTail.exe
+C:\Users\pevans\Documents\Visual Studio 2013\Projects\Akka\Unit-1\DoThis\bin\Debug\WinTail.pdb
+C:\Users\pevans\Documents\Visual Studio 2013\Projects\Akka\Unit-1\DoThis\bin\Debug\Akka.dll
+C:\Users\pevans\Documents\Visual Studio 2013\Projects\Akka\Unit-1\DoThis\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pevans\Documents\Visual Studio 2013\Projects\Akka\Unit-1\DoThis\bin\Debug\Akka.xml
+C:\Users\pevans\Documents\Visual Studio 2013\Projects\Akka\Unit-1\DoThis\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pevans\Documents\Visual Studio 2013\Projects\Akka\Unit-1\DoThis\obj\Debug\WinTail.csprojResolveAssemblyReference.cache
+C:\Users\pevans\Documents\Visual Studio 2013\Projects\Akka\Unit-1\DoThis\obj\Debug\WinTail.exe
+C:\Users\pevans\Documents\Visual Studio 2013\Projects\Akka\Unit-1\DoThis\obj\Debug\WinTail.pdb
