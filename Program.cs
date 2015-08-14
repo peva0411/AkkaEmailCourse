@@ -15,7 +15,6 @@ namespace WinTail
             MyActorSystem = ActorSystem.Create("MyActorSystem");
 
            
-
             // time to make your first actors!
           Props consoleWriterProps = Props.Create<ConsoleWriterActor>();
           IActorRef consoleWriterActor = MyActorSystem.ActorOf(consoleWriterProps, "consoleWriterActor");

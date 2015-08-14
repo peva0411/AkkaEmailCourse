@@ -7,13 +7,15 @@ using Akka.Actor;
 
 namespace WinTail.Actors
 {
-  public class ValidationActor : UntypedActor
+  public class FileValidationActor : UntypedActor
   {
-    private IActorRef _consoleWriterActor;
+    private readonly IActorRef _consoleWriterActor;
+    private readonly IActorRef _tailCoordinatorRef;
 
-    public ValidationActor(IActorRef consoleWriterActor)
+    public FileValidationActor(IActorRef consoleWriterActor, IActorRef tailCoordinatoRef)
     {
       _consoleWriterActor = consoleWriterActor;
+      _tailCoordinatorRef = tailCoordinatoRef;
     }
 
     protected override void OnReceive(object message)
