@@ -50,7 +50,10 @@
   <ItemGroup>
     <Compile Include="Actors\ConsoleReaderActor.cs" />
     <Compile Include="Actors\ConsoleWriterActor.cs" />
-    <Compile Include="Actors\ValidationActor.cs" />
+    <Compile Include="Actors\FileValidationActor.cs" />
+    <Compile Include="Actors\TailActor.cs" />
+    <Compile Include="Actors\TailCoordinatorActor.cs" />
+    <Compile Include="FileObserver.cs" />
     <Compile Include="Messages.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

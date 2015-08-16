@@ -27,6 +27,7 @@ namespace WinTail.Actors
         // signal that the user needs to supply an input, as previously
         // received input was blank
         _consoleWriterActor.Tell(new Messages.NullInputError("No input received."));
+        Sender.Tell(new Messages.ContinueProcessing());
       }
       else
       {
