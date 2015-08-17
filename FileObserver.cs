@@ -28,7 +28,7 @@ namespace WinTail
 
     public void Start()
     {
-      _watcher = new FileSystemWatcher();
+      _watcher = new FileSystemWatcher(_fileDir, _fileNameOnly);
 
       _watcher.NotifyFilter = NotifyFilters.FileName | NotifyFilters.LastWrite;
 
